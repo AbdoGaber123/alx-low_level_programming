@@ -3,13 +3,16 @@
     printing all numbers in base16 numbering system
 */
 int main(void){
-    for(int num =0 ; num <= 9;num++){
-        putchar((num%10)+'0');
-    }
-    for(char ch ='A' ; ch <= 'F';ch++){
-        putchar(ch);
-    }
-    putchar('\n');
-    
-    return(0);
+    int num;
+	char letter;
+
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
 }
