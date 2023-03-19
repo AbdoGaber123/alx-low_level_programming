@@ -3,16 +3,19 @@
   
 int main()
 {
+  	
+#include <stdio.h>
   
-    	char letter;
+int main()
+{
+  
+    	int num;
 
-	for (letter = '0'; letter <= '9'; letter++)
-	{
-		
-		putchar(letter);
-	}
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
 	putchar('\n');
+
 
 	return (0);
 }
