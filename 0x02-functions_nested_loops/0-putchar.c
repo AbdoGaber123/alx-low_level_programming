@@ -1,14 +1,4 @@
-
-
-
-
-
-
-
-
 #include <main.h>
-#include <stdio.h>
-
 /**
  * main - Prints _putcahr  followed by a new line.
  *
